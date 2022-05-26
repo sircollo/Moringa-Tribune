@@ -31,7 +31,7 @@ DEBUG = False
 
 # ALLOWED_HOSTS = []
 
-MODE=config("MODE", default="dev")
+MODE=config("MODE", default="prod")
 SECRET_KEY = config('SECRET_KEY')
 DEBUG = config('DEBUG', default=False, cast=bool)
 #development
