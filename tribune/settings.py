@@ -51,7 +51,7 @@ if config('MODE')=="dev":
 else:
    DATABASES = {
        'default': dj_database_url.config(
-           default=config('postgresql://tssvgryaskinct:70ef30bb5bf3d58b1651e4c755d5cf523a18a77ef50e2c0d9f67e08a6ad4ea2b@ec2-54-204-56-171.compute-1.amazonaws.com:5432/d5l260skuibb3o')
+           default=config('DATABASE_URL')
        )
    }
 
